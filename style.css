@@ -10,3 +10,27 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+
+.content {
+  font-size: 40px;
+  position: absolute;
+  color: #1c87c9;
+  background-color: rgba(200, 200, 200, 0.5);
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
+}
+
+img {
+    width:  300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.item:hover {
+    color: aqua;
+}
